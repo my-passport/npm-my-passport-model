@@ -33,7 +33,7 @@ function githubRelease() {
   echo
 
   github-release release \
-    --user "shopping-platform" \
+    --user "my-passport" \
     --repo "$repo" \
     --tag "$tag" \
     --name "Release $tag" \
