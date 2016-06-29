@@ -1,6 +1,6 @@
 {
   "name": "my-passport-model",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "My passport models.",
   "main": "./index.js",
   "dependencies": {},
@@ -35,8 +35,8 @@
     "node": ">=6.2.1"
   },
   "readmeFilename": "README.md",
-  "_id": "my-passport-model@0.1.1",
-  "_from": "my-passport-model@^0.1.1",
+  "_id": "my-passport-model@0.1.2",
+  "_from": "my-passport-model@^0.1.2",
   "directories": {
     "test": "test"
   }
