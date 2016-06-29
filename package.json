@@ -1,0 +1,43 @@
+{
+  "name": "my-passport-model",
+  "version": "0.1.0",
+  "description": "My passport models.",
+  "main": "./index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "3.5.0",
+    "istanbul": "0.4.3",
+    "mocha": "2.5.3"
+  },
+  "scripts": {
+    "prepublish": "npm prune",
+    "test": "mocha --recursive test",
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --check-leaks --recursive test",
+    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --recursive test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/my-passport/npm-my-passport-model.git"
+  },
+  "bugs": {
+    "url": "https://github.com/my-passport/npm-my-passport-model/issues"
+  },
+  "keywords": [
+    "passport"
+  ],
+  "author": {
+    "name": "Zenedith",
+    "email": "zenedith@wp.pl"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/my-passport/npm-my-passport-model",
+  "engines": {
+    "node": ">=6.2.1"
+  },
+  "readmeFilename": "README.md",
+  "_id": "my-passport-model@0.1.0",
+  "_from": "my-passport-model@^0.1.0",
+  "directories": {
+    "test": "test"
+  }
+}
