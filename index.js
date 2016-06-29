@@ -6,6 +6,7 @@ module.exports = {
 
   error: {
     CaseNotFoundError: require('./lib/error/caseNotFoundError').CaseNotFoundError,
+    InvalidCaseNumber: require('./lib/error/invalidCaseNumberError').InvalidCaseNumber,
     ServiceUnavailableError: require('./lib/error/serviceUnavailableError').ServiceUnavailableError
   },
   enum: {
