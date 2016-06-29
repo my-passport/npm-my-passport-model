@@ -26,7 +26,7 @@ describe('caseResponse model test', function () {
       .withId(id)
       .withStatus(status)
       .build();
-
+    
     should.exist(caseResponseModel);
     caseResponseModel.id.should.be.equal(id);
     caseResponseModel.status.should.be.equal(status);

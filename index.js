@@ -9,7 +9,8 @@ module.exports = {
     ServiceUnavailableError: require('./lib/error/serviceUnavailableError').ServiceUnavailableError
   },
   enum: {
-    CountryEnum: require('./lib/model/countryEnum').CountryEnum
+    CountryEnum: require('./lib/model/countryEnum').CountryEnum,
+    StatusEnum: require('./lib/model/statusEnum').StatusEnum
   },
   model: {
     /**
