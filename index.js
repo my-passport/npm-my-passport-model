@@ -55,6 +55,14 @@ module.exports = {
     newsResponse: require('./lib/model/response/newsResponse'),
 
     /**
+     * the passportSubscriptionResponse model and builder.
+     * @property passportSubscriptionResponse
+     * @type passportSubscriptionResponse
+     * @static
+     */
+    passportSubscriptionResponse: require('./lib/model/response/passportSubscriptionResponse'),
+
+    /**
      * the authorRequest model and builder.
      * @property authorRequest
      * @type authorRequest
@@ -76,7 +84,15 @@ module.exports = {
      * @type newsRequest
      * @static
      */
-    newsRequest: require('./lib/model/request/newsRequest')
+    newsRequest: require('./lib/model/request/newsRequest'),
+
+    /**
+     * the passportSubscriptionRequest model and builder.
+     * @property passportSubscriptionRequest
+     * @type passportSubscriptionRequest
+     * @static
+     */
+    passportSubscriptionRequest: require('./lib/model/request/passportSubscriptionRequest')
 
   },
 
